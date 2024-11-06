@@ -28,6 +28,71 @@
   color: #61dafb;
 }
 
+/* 로고 css */
+.black-nav {
+  display: flex;
+  background: black;
+  font-size: 14px;
+  color: white;
+  padding-left: 20px;
+  font-family: "PRET";
+}
+
+/* 테이블 목록 css */
+.list {
+  width: 100%;
+  font-family: "PRET";
+  text-align: center;
+  vertical-align: middle;
+}
+
+.list .title {
+  width: 100%;
+  height: 51px;
+  background: #ECE9F4;
+  border-top: 2px solid #B395FF;
+  line-height: 51px;
+}
+
+.list .body {
+  height: 48px;
+  border: 1px solid #ccc;
+}
+
+/* 버튼 css */
+.btn-area-right {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 0;
+  text-align: right;
+}
+
+.btn-solid {
+  background: #4F25BB;
+  border: 1px solid #4F25BB;
+  color: #fff;
+}
+
+button + button{
+  margin-left: 10px;
+}
+
+/* 모달css */
+.modal {
+  margin-top : 20px;
+  padding : 20px;
+  background : #eee;
+  text-align : left;
+}
+
+.tit_area {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
