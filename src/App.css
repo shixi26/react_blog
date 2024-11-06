@@ -74,6 +74,23 @@
   color: #fff;
 }
 
+.btn-delete {
+  padding: 0 10px;
+  height: 28px;
+  background: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 0;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-delete span {
+  font-size: 13px;
+  color: #fff;
+  vertical-align: middle;
+}
+
 button + button{
   margin-left: 10px;
 }
